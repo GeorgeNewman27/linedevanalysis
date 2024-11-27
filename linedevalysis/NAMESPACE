@@ -1,0 +1,8 @@
+export(read_route_gpx)
+export(read_line_gpx)
+export(calculate_deviations)
+export(calculate_Burdell_score)
+
+importFrom(xml2, read_xml, xml_find_all, xml_attr, xml_text, xml_find_first)
+importFrom(geosphere, bearing, distGeo, dist2Line, distVincentySphere)
+importFrom(dplyr, rowwise, mutate, select, ungroup, filter, "%>%")

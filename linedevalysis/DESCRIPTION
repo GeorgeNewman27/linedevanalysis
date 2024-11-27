@@ -1,0 +1,15 @@
+Package: linedevalysis
+Type: Package
+Title: Line Deviation Analysis
+Description: Calculates and analyses deviations from straight line missions.
+Version: 1.0.0
+Authors@R: person("George", "Newman", role = c("aut", "cre", "cph"), email = "gnewman2005@icloud.com")
+License: Apache License 2.0
+Imports:
+    xml2,
+    geosphere,
+    dplyr
+Video: https://www.youtube.com/watch?v=7P3bm8nx2y4
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
